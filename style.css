@@ -14,6 +14,7 @@ h2{
 }
 .font{
     text-align: justify;
+    color: gray;
     
 }
 .color1{
@@ -82,7 +83,7 @@ h2{
   #special .card-container .card {
     
    
-    width: 25%;
+    width: 27%;
     margin-left: 2%;
     margin-right: 5px;
     box-shadow: 5px 5px 30px gray;
@@ -106,10 +107,7 @@ h2{
     text-align: justify;
     
   }
-  #footer {
-    background: black;
-    
-  }
+ 
   .container .heading{
     font-size: 48px;
     margin: 32px 0;
@@ -127,7 +125,7 @@ h2{
   }
   .gallery-container .image{
       height: 240px;
-      width: 240px;
+      width: 350px;
       margin: 16px;
      overflow: hidden;
      box-shadow: 0 4.8px 8px rgba(0,0,0);
@@ -139,6 +137,10 @@ h2{
       object-fit: cover;
       outline: none;
       border: none;
+  }
+  #footer {
+    background: black;
+    
   }
 
   #footer h1 {
