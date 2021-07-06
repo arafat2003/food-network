@@ -72,7 +72,7 @@ h2{
 }
 #special .card-container {
     width: 95%;
-    margin: 2rem auto;
+    margin: 32px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -111,14 +111,14 @@ h2{
     
   }
   .container .heading{
-    font-size: 3rem;
-    margin: 2rem 0;
+    font-size: 48px;
+    margin: 32px 0;
     text-transform: capitalize;
     color: var(-purple);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: .2rem;
+    letter-spacing: 3.2px;
     text-align: center;
-    text-shadow: 0 .3rem .5rem rgba(0,0,0);
+    text-shadow: 0 4.8px 8px rgba(0,0,0);
   }
   .gallery-container{
       display: flex;
@@ -126,12 +126,12 @@ h2{
       flex-wrap: wrap;
   }
   .gallery-container .image{
-      height: 15rem;
-      width: 15rem;
-      margin: 2rem;
+      height: 240px;
+      width: 240px;
+      margin: 16px;
      overflow: hidden;
-     box-shadow: 0 .3rem .5rem rgba(0,0,0);
-     border-radius: 1rem;
+     box-shadow: 0 4.8px 8px rgba(0,0,0);
+     border-radius: 16px;
   }
   .gallery-container .image img{
       height: 100%;
@@ -142,15 +142,15 @@ h2{
   }
 
   #footer h1 {
-    font-size: 2rem;
+    font-size: 32px;
     margin: 0;
-    padding: 2rem 0;
+    padding: 32px 0;
     text-align: center;
     color: #fff;
   }
   #footer p{
     text-align: center;
-    padding: 2rem 0;
+    padding: 32px 0;
     color: white;
     margin: 0;
   }
